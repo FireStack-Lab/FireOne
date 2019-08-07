@@ -1,4 +1,6 @@
 {
+  "extends": "./tsconfig.base.json",
   "files": [],
+  "include": ["./typings/**/*.d.ts"],
   "references": [{ "path": "packages/api" }, { "path": "packages/engine" }]
 }
