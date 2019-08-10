@@ -1,4 +1,10 @@
 {
   "files": [],
-  "references": [{ "path": "packages/api" }, { "path": "packages/engine" }]
+  "references": [
+    { "path": "packages/fireone-utils" },
+    { "path": "packages/fireone-api" },
+    { "path": "packages/fireone-contentscript" },
+    { "path": "packages/fireone-background" },
+    { "path": "packages/fireone-inpage" }
+  ]
 }

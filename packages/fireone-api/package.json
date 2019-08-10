@@ -1,0 +1,27 @@
+{
+  "name": "@fireone/api",
+  "version": "0.0.1",
+  "description": "api package for fireone",
+  "main": "dist/index.js",
+  "node": "dist/index.js",
+  "browser": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "jsnext:main": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "neeboo@firestack.one",
+  "license": "MIT",
+  "dependencies": {
+    "@fireone/utils": "^0.0.1",
+    "@harmony-js/account": "^0.1.6",
+    "@harmony-js/core": "^0.1.6",
+    "@harmony-js/network": "^0.1.6",
+    "uuid": "^3.3.2"
+  }
+}

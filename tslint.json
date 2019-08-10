@@ -1,7 +1,7 @@
 {
   "extends": ["tslint:latest", "tslint-config-prettier"],
   "rules": {
-    "interface-name": [true, "never-prefix"],
+    "interface-name": [false, "never-prefix"],
     "member-access": false,
     "no-angle-bracket-type-assertion": false,
     "no-bitwise": false,
